@@ -1,6 +1,6 @@
 # nodeMailer
 
-[참고자료 링크](https://uxicode.tistory.com/entry/Nodejs%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EB%A9%94%EC%9D%BC%EB%B3%B4%EB%82%B4%EA%B8%B0-nodemailer)  
+[Node.js로 간단하게 메일보내기](https://uxicode.tistory.com/entry/Nodejs%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EB%A9%94%EC%9D%BC%EB%B3%B4%EB%82%B4%EA%B8%B0-nodemailer)  
 
 Nodemailer - [https://nodemailer.com/about/](https://nodemailer.com/about/)  
 
