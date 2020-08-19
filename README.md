@@ -54,7 +54,7 @@ var mailOpt={
     from:'보내는 사람 주소@gmail.com',
     to:'받는사람주소@gmail.com',
     subject:'Nodemailer 테스트',
-    html:'<h1>우하하하 스팸 아님 테스트임</h1>'
+    text: '평문 보내기 테스트 '
 }
 smtpTransport.sendMail(mailOpt, function(err, res) {
     if( err ) {
