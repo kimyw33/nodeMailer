@@ -117,12 +117,13 @@ var mailOptions = {
 	subject:'Nodemailer 테스트',
 	// text: '평문 보내기 테스트 ',
 	html:'<h1>HTML 보내기 테스트</h1><p><img src="http://www.nodemailer.com/img/logo.png"/></p>',
-	attachments:[
+        attachments:
+	[
 		{
-			fileName: 'test.log',
-			streamSource: fs.createReadStream('./test.log') // test.log 대신에 자신의 파일명을 적으면 됨, 이 코드를 사용하려면 첨부파일이 같은 폴더에 있어야 함
-		}
-	]
+			fileName: 'test.txt',
+			path:'./test.txt', // 파일 경로를 써줌
+		},
+	],
 };
 
 smtpTransport.sendMail(mailOptions, function(error, response){
